@@ -379,6 +379,15 @@ h4 {
 	float: right;
 }
 */
+
+.one-post {
+	min-width: 100%;
+	min-height: 500px;
+	margin-bottom: 40px;
+	display: block;
+	margin-top: 100px;
+}
+
 .posts {
 	
 	margin-top: 50px;

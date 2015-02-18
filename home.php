@@ -9,11 +9,19 @@
 			
 					<div class="post">
 							
-							<?php the_post_thumbnail('thumbnail'); ?>
+							<?php 
+
+								if (has_post_thumbnail() ){
+										the_post_thumbnail('thumbnail');
+								}
+								else {
+									echo '<img src="http://preparaty-odchudzajace24.pl/wp-content/themes/creativemag/images/default.png" width=150 height=150>';
+								}	
+							 ?>
 
 							<div class="post-content">
-	
-								<h2><?php echo the_title(); ?></h2>
+
+								<h2><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
 								<h6>Dodano: <b><?php the_modified_time('j F Y'); ?></b></h6>
 
 								<p style="margin-top: 20px;font-size:15px;"><?php the_excerpt(); ?></p>

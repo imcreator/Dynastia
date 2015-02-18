@@ -1,27 +1,25 @@
 <?php get_header(); ?>
 
 	<div class="fluid-container">
-		
-		<div class="posts">
 
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 			
-					<div class="post">
+				<div class="one-post">
 							
-							<?php the_post_thumbnail('large'); ?>
+						<?php the_post_thumbnail('thumbnail'); ?>
 
-							<div class="post-content">
-	
-								<h2><a href="<?php echo get_permalink(); ?>"><?php echo the_title(); ?></a></h2>
-								<p><?php the_excerpt( ); ?></p>
-							</div>
+						<div class="post-content">
+							
+							<h2><?php echo the_title(); ?></h2>
+							
 
-					</div>
+							<p style="margin-top: 20px;font-size:15px;"><?php the_content(); ?></p>
+						</div>
+				</div>
 				
-			<?php endwhile; endif; ?>
+		<?php endwhile; endif; ?>
 
-		</div>
 	</div>
 	
 <?php get_footer(); ?>
