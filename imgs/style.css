@@ -1,5 +1,5 @@
 /*
-	Theme Name: Dynastia.eu Marek Pankiewicz
+	Theme Name: Bootstrap - Dynastia.eu
 	Theme URI: www.dynastia.eu
 	Description: Dynastia Nemaniców
 	Version: 1.0
@@ -20,25 +20,21 @@
 }
 header{
 	background: #181818;
-	padding-bottom: 7px;
-	-webkit-box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 1);
-	-moz-box-shadow:    0px 1px 2px 0px rgba(50, 50, 50, 1);
-	box-shadow:         0px 1px 2px 0px rgba(50, 50, 50, 1);
+	
 }
 
 nav {
 	line-height: 100px;
-	float: right;
 }
 
 nav ul li {
 	float: left;
-	line-height: 160px;
+	line-height: 194px;
 }
 
 ul li a {
 
-	margin-right: 14px;
+	margin-right: 20px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -47,8 +43,9 @@ ul li a:hover {
 	color: yellow;
 	text-decoration: none;
 }
-.space-logo {
-	f
+.logo a{
+	text-indent: -99999px;
+
 }
 div#logo {
 	display: inline-block;
@@ -175,15 +172,6 @@ footer a {
 	margin: 0 auto;
 }
 
-#logo {
-	width:250px;
-	float: left;
-}
-
-#menu {
-	width: 710px;
-	float: right;
-}
 #logo img {
 	margin-bottom: 20px;
 }
@@ -232,7 +220,7 @@ div.wdform-page-and-images{
 }
 
 .las {
-	background: url(imgs/las.jpg) no-repeat center center;
+	background: url(http://www.powiat.szczecinek.pl/f/galeria/gm/las1.jpg) no-repeat center center;
 		-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -247,7 +235,7 @@ div.wdform-page-and-images{
 	  background-size: cover;
 }
 .wystawy {
-	background: url(imgs/wystawa.jpg) no-repeat center center;
+	background: url(http://setters.com.pl/wp-content/uploads/2014/08/P1070079.jpg) no-repeat center center;
 		-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -283,9 +271,8 @@ div.wdform-page-and-images{
 .zawartosc #title {
 	text-align:center;
 }
-.kontener {
+.container {
 	width: 960px;
-	margin: 0 auto;
 }
 
 #menu-menu-1 {
@@ -341,77 +328,4 @@ h4 {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-}
-
-.stg {
-	background: url(imgs/naszepsy.jpg) no-repeat center center;
-		-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-}
-
-.most {
-	background: url(imgs/most.jpg) no-repeat center center;
-		-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-}
-.zawartosc p {
-	font-size: 1.2em;
-}
-.most .zawartosc a {
-	margin: 0px 52px;
-}
-
-.zawartosc img {
-	padding:8px;
-	background: #fff;
-}
-
-#dashed {
-	border-bottom: 1px #fff dashed;
-}
-
-/*.content {
-	width: 500px;
-	float: right;
-}
-*/
-.posts {
-	
-	margin-top: 50px;
-}
-
-.post {
-	min-width: 100%;
-	height: 200px;
-	margin-bottom: 40px;
-}
-
-.post-content {
-	width: 790px;
-	float: right;
-	overflow: hidden;
-}
-
-.post-content p {
-	overflow: hidden;
-}
-
-.post-content h2 {
-	margin-top: 0;
-}
-.post-thumbnail {
-	padding: 5px;
-	border: 1px solid #eee;
-	margin: 0 20px 10px 0;
-}
-
-.wp-post-image {
-	padding: 5px;
-	margin:0 20px 20px 0;
-	border: 1px solid #eee;
-	float: left;
 }

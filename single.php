@@ -16,7 +16,7 @@
 								<h2><a href="<?php echo get_permalink(); ?>"><?php echo the_title(); ?></a></h2>
 								<p><?php the_excerpt( ); ?></p>
 							</div>
-						<strong>Dodano:</strong> <?php echo get_the_time(); ?>
+
 					</div>
 				
 			<?php endwhile; endif; ?>
