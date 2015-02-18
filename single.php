@@ -9,12 +9,13 @@
 							
 						<?php the_post_thumbnail('thumbnail'); ?>
 
-						<div class="post-content">
+						<div class="single-post-content">
 							
 							<h2><?php echo the_title(); ?></h2>
-							
 
-							<p style="margin-top: 20px;font-size:15px;"><?php the_content(); ?></p>
+							<?php the_content(); ?>
+									
+							<?php previous_post('&laquo;  %', '', 'yes'); ?> | <?php next_post('% &raquo;', '', 'yes'); ?>
 						</div>
 				</div>
 				

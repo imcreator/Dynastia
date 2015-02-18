@@ -399,17 +399,36 @@ h4 {
 	margin-bottom: 40px;
 }
 
+.single-post-content{
+	width: 790px;
+	overflow: hidden;
+	padding: 0 45px;
+	margin: 0 auto;
+}
+
 .post-content {
 	width: 790px;
 	float: right;
 	overflow: hidden;
+	padding: 0 50px;
 }
 
-.post-content p {
+.post-content p,
+.single-post-content p {
 	overflow: hidden;
 }
 
-.post-content h2 {
+.single-post-content p{
+	font-size: 17px;
+	color: #575757;
+}
+
+.single-post-content p:first-of-type:first-letter{
+	font-size: 30px;
+}
+
+.post-content h2,
+.single-post-content h2 {
 	margin-top: 0;
 }
 .post-thumbnail {
