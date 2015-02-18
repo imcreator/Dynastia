@@ -1,0 +1,9 @@
+<!-- <div class="kontakt">
+	<div class="header">
+	<h1>Masz pytania? Napisz do nas!</h1> -->
+<!-- </div> -->
+
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar 1') ) : ?>
+
+								<?php endif; ?>
+							

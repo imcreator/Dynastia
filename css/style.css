@@ -1,0 +1,290 @@
+
+.wrap {
+	min-width: 100%;
+}
+header{
+	background: #181818;
+	
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+}
+
+nav ul li {
+	float: left;
+	line-height: 100px;
+}
+
+ul li a {
+
+	margin-right: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+.logo a{
+	text-indent: -99999px;
+
+}
+div#logo {
+	display: inline-block;
+}
+.slider {
+	height: 660px;
+	background: url('http://www.sinoorigin.com/images/hunting/large/hunting-dog-oil-painting-02.jpg') repeat fixed center center / cover transparent;
+}
+
+.featured {
+	padding: 50px 200px;
+	height: auto;
+	background: white;
+}
+
+.column	{
+	height: 342px;
+	background: green;
+}
+
+.gallery {
+	height: 800px;
+	background: url('http://bestofbest.rs/wp-content/uploads/2011/11/Beks.jpg') repeat fixed center center / cover;
+}
+
+footer {
+	height: 660px;
+	background: #151c27;
+}
+
+.box {
+	min-width: 30%;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+
+.content {
+	min-width: 50%;
+	float: right;
+	background: #e6ddda;
+	padding: 40px;
+	height: 219px;
+	position: relative;
+}
+
+.box, .content {
+	display: inline-block;
+}
+
+.ribbon {
+	background: url(../imgs/ribbon.png) no-repeat;
+	height: 131px;
+	width: 134px;
+	position: absolute;
+}
+
+.box img {
+	margin: 30px;
+}
+
+#arrow {
+	position: absolute;
+	left: -14px;
+	top: 100px;
+	background: url(../imgs/arrow.png) no-repeat;
+	width: 14px;
+	height: 28px;
+}
+
+/*.btn {
+	border: 3px solid #987f77;
+	padding: 14px 43px ;
+	width: 230px;
+	text-align: center;
+}
+*/
+/*.btn a {
+	text-decoration: none;
+	color: #987f77;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.box1 {
+	width: 25%;
+
+}*/
+
+footer ul li {
+	float: left;
+}
+
+footer ul {
+	margin: 0  auto;
+	
+	
+}
+
+footer ul li {
+	list-style: none;
+	text-decoration: none;
+	line-height: 70px;
+
+}
+
+footer a {
+	color: #000000;
+	font-size: 12pt;
+}
+
+.gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+.btn-gallery{
+	border: 3px solid green;
+	padding: 20px 50px;
+	display: inline;
+}
+
+.gallery .btn-gallery {
+	position: absolute;
+	right: 50%;
+	top: 50%;
+}
+
+.fluid-container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo img {
+	height: 70px;
+	margin-bottom: 0;
+}
+
+#logo h1 {
+	margin-bottom: 0px;
+}
+
+.footer-content {
+	width: 935px;
+	margin: 0 auto;
+	background: #fff;
+	position:relative;
+	
+}
+
+.kontakt {
+	width: 540px;
+}
+
+.kontakt .header {
+	width: 514px;
+	padding: 30px 40px;
+	background: #080c11;
+	position: absolute;
+	top:40px;
+	color: #fff;
+	
+}
+
+.header h1,#envelope {
+	display: inline;
+	margin-left: 65px;
+	
+}
+
+#envelope {
+	background: url(../imgs/envelope.png) no-repeat;
+	width: 28px;
+	height: 20px;
+	float: right;
+}
+
+form {
+	
+	position: absolute;
+	top: 160px;
+	width: 514px;
+}
+
+input,textarea {
+	display: block;
+	width:100%;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.block{
+	margin:20px 0;
+	color: #000000;
+  display: inline-block;
+  padding: 6px 12px;
+  
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.block.btn {
+	float: right;
+	background: 
+}
+
+#social {
+	width: 360px;
+	float: right;
+	/*margin-top: 40px;*/
+	margin-top: 66px;
+	
+}
+#social ul li {
+	float: right;
+}
+
+.fb-like-box{
+	float: right;
+	margin-bottom: 55px;
+}
+
+#social-icons{
+	float: right;
+
+}
+
+#social-icons ul {
+	width: auto;
+
+}
+
+label {
+	color: #fff;
+
+}
+
+section.img {
+	width: 33%;
+}
+
+section.demo {
+	width: 66%;
+}
+
+.col-md-4 img{
+	height: 300px;
+}
