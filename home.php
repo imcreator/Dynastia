@@ -28,10 +28,19 @@
 							</div>
 						
 					</div>
-				
+							
 			<?php endwhile; endif; ?>
 
+			<!-- Home Page Pagination -->
+			<div class="main-pagination" style="margin:0 auto;width:400px;margin-bottom:25px">
+
+				<span class="nav-next alignright" style="margin-right:25px;"><?php next_posts_link( "Starsze Wpisy" ); ?></span> ... 
+				<span class="nav-previous alignleft" style="margin-left:25px;"><?php previous_posts_link( "Nowsze Wpisy" ); ?></span>
+				
+			</div>
+
 		</div>
+
 	</div>
 	
 <?php get_footer(); ?>

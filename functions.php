@@ -34,4 +34,10 @@ function register_menu() {
 }
 add_action('init', 'register_menu');
 
+function limit_posts_per_page() {
+   if ( is_home() )
+      return 5;
+}
+add_filter('pre_option_posts_per_page', 'limit_posts_per_page');
+
 ?>

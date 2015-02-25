@@ -14,8 +14,10 @@
 							<h2><?php echo the_title(); ?></h2>
 
 							<?php the_content(); ?>
-									
-							<?php previous_post('&laquo;  %', '', 'yes'); ?> | <?php next_post('% &raquo;', '', 'yes'); ?>
+
+							<div id="next-back">
+								<?php previous_post('&laquo;  %', '', 'yes'); ?> | <?php next_post('% &raquo;', '', 'yes'); ?>
+							</div>
 						</div>
 				</div>
 				
