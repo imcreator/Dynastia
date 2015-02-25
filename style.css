@@ -78,10 +78,17 @@ div#logo {
 	background: url('http://bestofbest.rs/wp-content/uploads/2011/11/Beks.jpg') repeat fixed center center / cover;
 }
 
-footer {
-	
+footer {	
 	background: #151c27;
-	padding-top: 30px;
+	padding-top: 8px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	clear: both;
+}
+
+footer p {
+	line-height: 42px;
 }
 
 .box {
