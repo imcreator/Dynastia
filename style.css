@@ -81,10 +81,8 @@ div#logo {
 footer {	
 	background: #151c27;
 	padding-top: 8px;
-	position: fixed;
-	bottom: 0px;
+	bottom: -1px;
 	width: 100%;
-	clear: both;
 }
 
 footer p {
@@ -180,6 +178,7 @@ footer a {
 .fluid-container{
 	width: 960px;
 	margin: 0 auto;
+	position: relative;
 }
 
 #logo {
